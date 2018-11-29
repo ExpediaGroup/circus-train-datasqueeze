@@ -6,7 +6,7 @@
 
     <groupId>com.expedia.dsp</groupId>
     <artifactId>circus-train-datasqueeze</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <name>circus-train-datasqueeze</name>
     <description>Circus Train ⨉ DataSqueeze</description>
@@ -36,6 +36,14 @@
         <name>Expedia Group (Data Services and Platforms)</name>
         <url>https://www.expediagroup.com/</url>
     </organization>
+
+    <developers>
+        <developer>
+            <name>Data Services &amp; Platforms</name>
+            <organization>Expedia Group (Data Services and Platforms)</organization>
+            <url>https://www.expediagroup.com/</url>
+        </developer>
+    </developers>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
