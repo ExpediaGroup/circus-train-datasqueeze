@@ -6,7 +6,7 @@
 
     <groupId>com.expedia.dsp</groupId>
     <artifactId>circus-train-datasqueeze</artifactId>
-    <version>1.0</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <name>circus-train-datasqueeze</name>
     <description>Circus Train ⨉ DataSqueeze</description>
@@ -49,7 +49,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jdk.version>1.7</jdk.version>
 
-        <datasqueeze.version>2.0</datasqueeze.version>
+        <datasqueeze.version>2.0.1</datasqueeze.version>
         <circus.train.version>12.1.0</circus.train.version>
         <powermock.version>1.7.4</powermock.version>
 
