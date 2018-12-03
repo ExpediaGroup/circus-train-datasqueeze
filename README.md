@@ -6,7 +6,7 @@
 
 ## Overview
 
-This project implements new Copiers for [CircusTrain](https://github.com/HotelsDotCom/circus-train) which integrate 
+This project implements new Copiers for [Circus Train](https://github.com/HotelsDotCom/circus-train) which integrate 
 [DataSqueeze](https://github.com/ExpediaInceCommercePlatform/datasqueeze).
 
 These CopierFactories are available:
