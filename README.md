@@ -4,6 +4,8 @@
 
 # Circus Train DataSqueeze Copier
 
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.expedia.dsp/circus-train-datasqueeze/badge.svg?subject=com.expedia.dsp:circus-train-datasqueeze)](https://maven-badges.herokuapp.com/maven-central/com.expedia.dsp/circus-train-datasqueeze) [![Build Status](https://travis-ci.com/ExpediaInceCommercePlatform/circus-train-datasqueeze.svg?branch=master)](https://travis-ci.com/ExpediaInceCommercePlatform/circus-train-datasqueeze) ![GitHub license](https://img.shields.io/github/license/ExpediaInceCommercePlatform/circus-train-datasqueeze.svg)
+
 ## Overview
 
 This project implements new Copiers for [CircusTrain](https://github.com/HotelsDotCom/circus-train) which integrate 
