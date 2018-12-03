@@ -49,7 +49,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jdk.version>1.7</jdk.version>
 
-        <datasqueeze.version>2.0.1</datasqueeze.version>
+        <datasqueeze.version>2.0.2</datasqueeze.version>
         <circus.train.version>12.1.0</circus.train.version>
         <powermock.version>1.7.4</powermock.version>
 
