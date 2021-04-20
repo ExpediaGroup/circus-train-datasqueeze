@@ -4,12 +4,14 @@
 
 # Circus Train DataSqueeze Copier
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.expedia.dsp/circus-train-datasqueeze/badge.svg?subject=com.expedia.dsp:circus-train-datasqueeze)](https://maven-badges.herokuapp.com/maven-central/com.expedia.dsp/circus-train-datasqueeze) [![Build Status](https://travis-ci.com/ExpediaInceCommercePlatform/circus-train-datasqueeze.svg?branch=master)](https://travis-ci.com/ExpediaInceCommercePlatform/circus-train-datasqueeze) ![GitHub license](https://img.shields.io/github/license/ExpediaInceCommercePlatform/circus-train-datasqueeze.svg)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.expedia.dsp/circus-train-datasqueeze/badge.svg?subject=com.expedia.dsp:circus-train-datasqueeze)](https://maven-badges.herokuapp.com/maven-central/com.expedia.dsp/circus-train-datasqueeze) 
+[![Build Status](https://github.com/ExpediaGroup/circus-train-datasqueeze/workflows/Build/badge.svg)](https://github.com/ExpediaGroup/circus-train-/actions?query=workflow:"Build") 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Overview
 
 This project implements new Copiers for [Circus Train](https://github.com/HotelsDotCom/circus-train) which integrate 
-[DataSqueeze](https://github.com/ExpediaInceCommercePlatform/datasqueeze).
+[DataSqueeze](https://github.com/ExpediaGroup/datasqueeze).
 
 These CopierFactories are available:
 
@@ -55,7 +57,7 @@ The `composite-tmp-dir` property is used to stage the data between the S3DistCpC
 | `extension-packages`                    | Yes      | Allows Circus Train to discover this extension
 | `copier-options.copier-factory-class`   | Yes      | Forces Circus Train to use the given copier: `com.expedia.dsp.circustrain.S3DataSqueezeCopierFactory`
 | `copier-options.composite-tmp-dir`      | Yes      | The temporary location to stage data between the S3 and DataSqueeze copiers
-| `copier-options.threshold`              | No       | A threshold determining which files will be compacted; any files over this size (in bytes) will not be compacted.  If omitted, DataSqueeze will use its [default value](https://github.com/ExpediaInceCommercePlatform/datasqueeze/blob/master/src/main/resources/compaction.properties#L1).
+| `copier-options.threshold`              | No       | A threshold determining which files will be compacted; any files over this size (in bytes) will not be compacted.  If omitted, DataSqueeze will use its [default value](https://github.com/ExpediaGroup/datasqueeze/blob/main/src/main/resources/compaction.properties#L1).
 
 ## Contributing
 
