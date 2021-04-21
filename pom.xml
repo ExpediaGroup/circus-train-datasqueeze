@@ -12,8 +12,6 @@
     <description>Circus Train ⨉ DataSqueeze</description>
     <inceptionYear>2018</inceptionYear>
 
-    <url>https://expediaincecommerceplatform.github.io/circus-train-datasqueeze</url>
-
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
@@ -22,14 +20,14 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:git://github.com/ExpediaInceCommercePlatform/circus-train-datasqueeze.git</connection>
-        <developerConnection>scm:git:ssh://github.com:ExpediaInceCommercePlatform/circus-train-datasqueeze.git</developerConnection>
-        <url>https://github.com/ExpediaInceCommercePlatform/circus-train-datasqueeze/tree/master</url>
+        <connection>scm:git:git://github.com/ExpediaGroup/circus-train-datasqueeze.git</connection>
+        <developerConnection>scm:git:ssh://ExpediaGroup/circus-train-datasqueeze.git</developerConnection>
+        <url>https://github.com/ExpediaGroup/circus-train-datasqueeze/tree/main</url>
     </scm>
 
     <issueManagement>
         <system>github</system>
-        <url>https://github.com/ExpediaInceCommercePlatform/circus-train-datasqueeze/issues</url>
+        <url>https://github.com/ExpediaGroup/circus-train-datasqueeze/issues</url>
     </issueManagement>
 
     <organization>
@@ -159,7 +157,8 @@
                         <headerDefinition>resources/header-definitions.xml</headerDefinition>
                     </headerDefinitions>
                     <properties>
-                        <owner>Expedia Group</owner>
+                        <owner>Expedia, Inc.</owner>
+                        <currentYear>${current.year}</currentYear>                        
                     </properties>
                     <includes>
                         <include>src/main/java/**</include>
@@ -170,8 +169,9 @@
                 </configuration>
                 <executions>
                     <execution>
+                        <phase>validate</phase>
                         <goals>
-                            <goal>check</goal>
+                            <goal>format</goal>
                         </goals>
                     </execution>
                 </executions>
@@ -256,7 +256,7 @@
     <repositories>
         <repository>
             <id>central</id>
-            <url>http://repo1.maven.org/maven2/</url>
+            <url>https://repo1.maven.org/maven2/</url>
         </repository>
     </repositories>
 
