@@ -5,7 +5,7 @@
 # Circus Train DataSqueeze Copier
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.expedia.dsp/circus-train-datasqueeze/badge.svg?subject=com.expedia.dsp:circus-train-datasqueeze)](https://maven-badges.herokuapp.com/maven-central/com.expedia.dsp/circus-train-datasqueeze) 
-[![Build Status](https://github.com/ExpediaGroup/circus-train-datasqueeze/workflows/Build/badge.svg)](https://github.com/ExpediaGroup/circus-train-/actions?query=workflow:"Build") 
+[![Build Status](https://github.com/ExpediaGroup/circus-train-datasqueeze/workflows/Build/badge.svg)](https://github.com/ExpediaGroup/circus-train-datasqueeze/actions?query=workflow:"Build") 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Overview
